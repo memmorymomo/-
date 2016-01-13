@@ -1,1 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="th"
+<html>
+  <head>
+    <title>Prachuapkhirikhan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Duru+Sans|Actor' rel='stylesheet' type='text/css'>
+
+    <!--Bootshape-->
+    <link href="css/bootshape.css" rel="stylesheet">
+
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootshape.js"></script>
+
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span class="blue">Prachuap</span>khirikhan</a>
+        </div>
+        <nav role="navigation" class="collapse navbar-collapse navbar-right">
+          <ul class="navbar-nav nav">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" href="#" class="dropdown-toggle">ข้อมูลทั่วไป<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">คำขวัญประจำจังหวัด</a></li>
+				<li class="divider"></li>
+                <li class><a href="#">ประะวัติของจังหวัด</a></li>
+				<li class="divider"></li>
+                <li><a href="#">อำเภอ</a></li>
+
+              </ul>
+            </li>
+
+			<li class="dropdown">
+			<a data-toggle="dropdown" href="#" class="dropdown-toggle">สถานที่ท่องเที่ยว <b class="caret"></b></a>
+			<ul class="dropdown-menu">
+                <li><a href="#">อำเภอ</a></li>
+
+              </ul>
+			  </li>
+
+			  <li class="dropdown">
+			<a data-toggle="dropdown" href="#" class="dropdown-toggle">กิจกรรมท่องเที่ยว<b class="caret"></b></a>
+			<ul class="dropdown-menu">
+                <li><a href="#">ประวัติศาสตร์</a></li>
+				<li class="divider"></li>
+                <li class><a href="#">การผจญภัย</a></li>
+				<li class="divider"></li>
+                <li><a href="#">พักผ่อน</a></li>
+
+			  </li>
+
+			  <li class="dropdown">
+			<a data-toggle="dropdown" href="#" class="dropdown-toggle">การเดินทาง <b class="caret"></b></a>
+			<ul class="dropdown-menu">
+                <li><a href="#">รถประจำทาง</a></li>
+				<li class="divider"></li>
+                <li class><a href="#">เครื่องบิน</a></li>
+		<li class="divider"></li>
+                <li class><a href="#">รถไฟ</a></li>
+              </ul>
+			  </li>
+
+			  <li class="dropdown">
+			<a data-toggle="dropdown" href="#" class="dropdown-toggle">แหล่งช้อปปิ้ง <b class="caret"></b></a>
+			<ul class="dropdown-menu">
+                <li><a href="#">ห้างสรรพสินค้า</a></li>
+				<li class="divider"></li>
+                <li class><a href="#">ตลาดสด</a></li>
+				<li class="divider"></li>
+                <li class><a href="#">ตลาดกลางคืน</a></li>
+              </ul>
+		</li>
+
+		 <li class="dropdown">
+			<a data-toggle="dropdown" href="#" class="dropdown-toggle">แหล่งของกิน <b class="caret"></b></a>
+			<ul class="dropdown-menu">
+                <li><a href="#">ร้านอาหาร</a></li>
+				<li class="divider"></li>
+                <li class><a href="#">ร้านกาแฟ&เบเกอร์รี่</a></li>
+				<li class="divider"></li>
+
+              </ul>
+			  </li>
+
+		 <li class="dropdown">
+			<a data-toggle="dropdown" href="#" class="dropdown-toggle">ที่พัก <b class="caret"></b></a>
+			<ul class="dropdown-menu">
+                <li><a href="#">โรงแรมา</a></li>
+				<li class="divider"></li>
+                <li class><a href="#">รีสอร์ท</a></li>
+				<li class="divider"></li>
+                <li class><a href="#">โฮมสเตย์</a></li>
+              </ul>
+			  </li>
+
+            <li><a href="#">กิจกรรมและงานของจังหวัด</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div><!-- End Navigation bar -->
+
+    <!-- Slide gallery -->
+    <div class="jumbotron">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/carousel1.jpg" alt="">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/carousel2.jpg" alt="">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/carousel3.jpg" alt="">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+    </div><!-- End Slide gallery -->
+
+
+  
+
+  </body>
+</html>
 
