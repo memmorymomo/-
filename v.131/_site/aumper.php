@@ -211,7 +211,5 @@ $content = <<<END
       </div>
 
 
-
-
-  END;
-  include __DIR__ . '/layouts/default.php';
+      END;
+      include __DIR__ . '/layouts/default.php';
