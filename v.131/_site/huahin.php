@@ -1,0 +1,255 @@
+<?
+$title = "Hello First Page";
+$content = <<<END
+
+
+
+  <body background="http://www.radioviva.fm.br/images/backgrounds/bg-squares-3d.jpg">
+          <!--start menu -->
+          <!-- Fixed navbar -->
+          <!-- Navigation -->
+         <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation" style="background-color:#FF6666">
+            <div class="container topnav" >
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand topnav" href="index.html"><font size = "6"><font face = "kunlasatri"><font color="#000000">ประจวบคีรีขันธ์</a></font></font></font>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size = "4.5"><font color="#000000"><font face = "kunlasatri">ข้อมูลทั่วไป<b class="caret"></b></font></font></font></a>
+                      <ul class="dropdown-menu" style="background-color:#FFCCCC">
+                        <li><a href="prawat.html"> ประวัติจังหวัด</a></li>
+                        <li><a href="aumper.html">อำเภอ</a></li>
+                              </ul>
+                            </li>
+
+                        <!--สถานที่ท่องเที่ยว-->
+                                          <li class="dropdown">
+                                          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size = "4.5"><font color="#000000"><font face = "kunlasatri">สถานที่ท่องเที่ยว <b class="caret"></b></font></font></font></a>
+                                          <ul class="dropdown-menu" style="background-color:#FFCCCC">
+                                            <li><a href="meung.html"> อำเภอเมือง</a></li>
+                                            <li><a href="huahin.html">อำเภอหัวหิน</a></li>
+                                            <li><a href="pranburee.html">อำเภอปราณบุรี</a></li>
+                                            <li><a href="kuiburee.html">อำเภอกุยบุรี</a></li>
+                                            <li><a href="tubsakea.html">อำเภอทับสะแก</a></li>
+                                            <li><a href="bangsapan.html">อำเภอบางสะพาน</a></li>
+                                            <li><a href="sapannoi.html">อำเภอบางสะพานน้อย</a></li>
+                                            <li><a href="samroiyod.html">กิ่งอำเภอสามร้อยยอด</a></li>
+
+                                          </ul>
+                                        </li>
+
+
+                                        <!--กิจกรรมท่องเที่ยว-->
+
+                                        <li class="dropdown" >
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size = "4.5"><font color="#000000"><font face = "kunlasatri">กิจกรรมท่องเที่ยว<b class="caret"></b></font></font></font></a>
+                                        <ul class="dropdown-menu" style="background-color:#FFCCCC">
+                                          <li><a href="prawatsad.html"> ประวัติศาสตร์</a></li>
+                                          <li><a href="pajonpai.html">การผจญภัย</a></li>
+                                          <li><a href="pakpon.html">พักผ่อน</a></li>
+
+                                        </ul>
+                                        </li>
+
+
+
+                                        <!--การเดินทาง-->
+
+                                                <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font color="#000000"><font size = "4.5"><font face = "kunlasatri">การเดินทาง<b class="caret"></b></font></font></font></a>
+                                                <ul class="dropdown-menu"  style="background-color:#FFCCCC">
+                                                  <li><a href="car.html">รถส่วนตัว</a></li>
+                                                  <li><a href="train.html">รถไฟ</a></li>
+                                                  <li><a href="bus.html">รถโดยสารประจำทาง</a></li>
+                                                  <li><a href="plane.html">เครื่องบิน</a></li>
+
+                                                </ul>
+                                              </li>
+
+
+                                        <!--แหล่งช้อปปิ้ง-->
+
+                                        <li class="dropdown" >
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size = "4.5"><font color="#000000"><font face = "kunlasatri">แหล่งช้อปปิ้ง<b class="caret"></b></font></font></font></a>
+                                        <ul class="dropdown-menu"  style="background-color:#FFCCCC">
+                                          <li><a href="mall.html">ห้างสรรพสินค้า</a></li>
+                                          <li><a href="market.html">ตลาดสด</a></li>
+                                          <li><a href="nightmarket.html">ตลาดกลางคืน</a></li>
+
+
+                                        </ul>
+                                        </li>
+
+                                        <!--แหล่งของกิน-->
+
+                                        <li class="dropdown" >
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font color="#000000"><font size = "4.5"><font face = "kunlasatri">แหล่งของกิน<b class="caret"></b></font></font></font></a>
+                                        <ul class="dropdown-menu"  style="background-color:#FFCCCC">
+                                          <li><a href="food.html">ร้านอาหาร</a></li>
+                                          <li><a href="coffee.html">ร้านกาแฟ เบเกอร์รี่</a></li>
+
+
+                                        </ul>
+                                        </li>
+
+                                        <!--ที่พัก-->
+                                        <li class="dropdown" >
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font color="#000000"><font size = "4.5"><font face = "kunlasatri">ที่พัก<b class="caret"></b></font></font></font></a>
+                                        <ul class="dropdown-menu  style="background-color:#FFCCCC"">
+                                          <li><a href="hotel.html">โรงแรม</a></li>
+                                          <li><a href="resort.html">รีสอร์ท์</a></li>
+                                          <li><a href="homestay.html">โฮมสเตย์</a></li>
+
+                                        </ul>
+                                        </li>
+
+
+
+                                        <!--กิจกรรมและงานของจังหวัด-->
+                                        <li class="">
+                                        <a href="event.html" class="" data-toggle=""><font color="#000000"><font size = "4.5"><font face = "kunlasatri">กิจกรรมและงานของจังหวัด<b class="caret"></b></font></font></font></a>
+
+
+                                      </li>
+                                                    </ul>
+
+                                  </div>
+</nav>
+
+
+
+<!--
+<div class="form-group">
+  <label>Search</label>
+  <input type="text" class="form-control" placeholder="Search">
+</div>
+<button class="btn btn-primary" type="button">Search</button>
+</form>
+-->
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+                                      <!-- contant P4-->
+                              <div class="tab-contant">
+                                <div class="tab-pane" id="huahin.html">    </div>
+                                      <div class=" container">
+                                        <div class="jumbotron">
+                                          <H1 align="center"><font face = "kunlasatri"> สถานที่ท่องเที่ยว อำเภอหัวหิน </h1></font>
+                                        </div>
+
+                                        <ol class="breadcrumb">
+                                                            <li><a href="index.html">ประจวบคีรีขันธ์</a>                    </li>
+                                                            <li><a href="#">สถานที่ท่องเที่ยว</a></li>
+                                                            <li class="active">อำเภอหัวหิน</li>
+                                                          </ol>
+                  <!--อุทยานราชภักดิ์-->
+                                        <hr class="featurette-divider">
+
+                                        <div class="row featurette">
+                                          <div class="col-md-6"><br><br>
+                                          <p> <b> <h1 align="center" class="featurette-heading"><font face = "kunlasatri">อุทยานราชภักดิ์</h1></font></b></p>
+                                          <h2><p style="text-indent: 2.5em;"><font face = "kunlasatri">"อุทยานราชภักดิ์" ตั้งอยู่ในเขตพื้นที่ของกองทัพบก อำเภอหัวหิน มีวัตถุประสงค์สร้างขึ้นเพื่อเทิดทูนและประกาศเกียรติคุณสมเด็จพระมหากษัตริย์แห่งสยาม 7 พระองค์ ได้แก่ พ่อขุนรามคำแหง สมเด็จพระนเรศวร สมเด็จพระนารายณ์ สมเด็จพระเจ้าตากสิน พระบาทสมเด็จพระพุทธยอดฟ้าจุฬาโลก พระบาทสมเด็จพระจอมเกล้าเจ้าอยู่หัว และพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว โดยชื่อ "อุทยานราชภักดิ์" เป็นชื่อที่พระราชทานจากพระบาทสมเด็จพระเจ้าอยู่หัว มีพื้นที่ประมาณ 222 ไร่ สถานที่แห่งนี้นอกจากเป็นแหล่งเรียนรู้ประวัติศาสตร์ของบุคคลทั่วไปแล้ว ยังเป็นสถานที่ท่องเที่ยว ไว้สำหรับพักผ่อนแห่งใหม่ของหัวหินอีกด้วย
+                                            </font></h2></p>
+
+
+                                          </div>
+                                          <div class="col-md-6"><br> <br>
+                                            <img class="featurette-image img-responsive center-block" img src="img/pak.jpg" alt="Generic placeholder image" width="400"height="400">
+
+
+                                          </div>
+                                          <div class="col-md-6" align="center"><br>
+                                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.226763872706!2d99.
+                                          96639431411958!3d12.501123328410936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x
+                                          30fdac40e7a9429d%3A0xc01d9a61ee9fdced!2z4Lit4Li44LiX4Lii4Liy4LiZ4Lij4Liy4LiK4Lig4Lix4LiB
+                                          4LiU4Li04LmMICggUmFqYWJoYWt0aSBQYXJrKQ!5e0!3m2!1sth!2sth!4v1453045098182" width="400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+                                      <!--ชายหาดหัวหิน -->
+
+                                      <hr class="featurette-divider">
+
+                                           <div class="row featurette">
+                                             <div class="col-md-7 col-md-push-5"><br><br>
+                                            <p> <b> <h1 align="center" class="featurette-heading"><font face = "kunlasatri">ชายหาดหัวหิน</font></p></h1></b>
+                                            <h2><p style="text-indent: 2.5em;"><font face = "kunlasatri">สถานที่ยอดนิยมตลอดกาลของหัวหินนั่นก็คือชายหาดหัวหิน
+                                              <br>ซึ่งตั้งอยู่ทางด้านทิศตะวันออกของตัวเมือง มีทางลงหาดอยู่ที่ถนนดำเนินเกษม
+                                              <br>สองข้างทางลงหาดมีโรงแรมและร้านจำหน่ายสินค้าที่ระลึก โดยหาดหัวหินมีความ
+                                              <br>ยาวประมาณ 5 กิโลเมตรทรายขาวละเอียดเหมาะสำหรับเล่นน้ำทะเล</h2></p>
+                                             </div>
+                                             <div class="col-md-5 col-md-pull-7"><br><br><br>
+                                               <img class="featurette-image img-responsive center-block" img src="img/hadhua.jpg" alt="Generic placeholder image" width="400" height="400">
+                                             </div>
+                                             <div class="col-md-6" ><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.2042783877!2d99.96109111412024!3d12.568777826991424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768
+                                              !4f13.1!3m3!1m2!1s0x30fdabb3f59b3db1%3A0xffded1be6a8d1b66!2z4Lir4Liy4LiU4Lir4Lix4Lin4Lir4Li04LiZ!5e0!3m2!1sth!2sth!4v1453046315
+                                              492" width="400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                            </div>
+
+                                          </div>
+
+
+
+                                          <!--รฤก หัวหิน-->
+                                                                                  <hr class="featurette-divider">
+
+                                                                                  <div class="row featurette">
+                                                                                    <div class="col-md-6"><br><br>
+                                                                                    <p> <b> <h1 align="center" class="featurette-heading"><font face = "kunlasatri">รฤก หัวหิน</h1></font></b></p>
+                                                                                    <h2><p style="text-indent: 5em;"><font face = "kunlasatri">นอกจากจะเป็นสถานที่เที่ยวใหม่ที่จะนำพาเราย้อนรำลึกเมือง
+                                                                                     <p style="text-indent: 3em;"> หัวหินในช่วงอดีตแล้ว รฤก หัวหิน ยังเป็นแหล่งรวมร้านค้า ร้าน
+                                                                                     <p style="text-indent: 3em;"> อาหารเครื่องดื่มที่ทั้งอร่อย สะอาด ราคาย่อมเยา บรรยากาศน่านั่ง
+                                                                                     <p style="text-indent: 3em;"> ฟังดนตรีและชมการแสดงที่ถ่ายทอดวิถีชีวิตของคนสมัยก่อนผ่านภาพ
+                                                                                      <p style="text-indent: 3em;">เก่าของหัวหิน บนเรือนไม้ร่วม 100 ปี คละเคล้าบรรยากาศทะเล ๆ
+                                                                                      <p style="text-indent: 3em;"> ซึ่งที่นี่สร้างขึ้นภายใต้แนวคิดที่ว่า จุดพักริมชายทะเลใกล้เมือง ร้อย
+                                                                                     <p style="text-indent: 3em;">เรื่องราวอดีตหัวหินในวันวาน ร่วมสืบสานความเป็นพื้น เมืองรำลึกถึง
+                                                                                     <p style="text-indent: 3em;"> ความเป็นหัวหิน ที่นัดพบและมุมอร่อยภายใต้บรรยากาศสุดชิลพร้อม
+                                                                                     <p style="text-indent: 3em;"> ทั้งยังถือเป็นจุดนัดพบในบรรยากาศสไตล์สมัยใหม่กึ่งย้อนยุค ให้
+                                                                                     <p style="text-indent: 3em;">เหล่าเพื่อนๆได้ร่วมเฮฮาตลอดทั้งวัน ดื่มด่ำกับบรรยากาศเรียบง่าย
+                                                                                       <p style="text-indent: 3em;">สบาย ๆและรับรู้ถึงกลิ่นอายความเป็นหัวหินเมื่อครั้งอดีต
+
+                                                                                    </div>
+                                                                                    <div class="col-md-6"><br> <br>
+                                                                                      <img class="featurette-image img-responsive center-block" img src="img/raruk.jpg" alt="Generic placeholder image" width="400"height="400">
+
+
+                                                                                    </div>
+                                                                                    <div class="col-md-6" align="center"><br>
+                                                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.043644098485!2d99.95380301412028!3d12.
+                                                                                    579373926768415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30fdaa518bce59fb%3A0x9781aaa8fb0632d7!2z
+                                                                                    4Lij4Lik4LiB4Lir4Lix4Lin4Lir4Li04LiZIHwgVGhlIEh1YWhpbiBNZW1vcnk!5e0!3m2!1sth!2sth!4v145304962227
+                                                                                    3" width="400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                </div>
+
+                                                   </div>
+
+                                           </div>
+
+
+                  <!--End contant P4------------------------>
+
+      </div>
+    </div>
+
+
+
+
+    END;
+    include __DIR__ . '/layouts/default.php';
